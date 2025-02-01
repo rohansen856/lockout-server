@@ -45,7 +45,7 @@ current_data = {
                 "player1": (datetime.now() - timedelta(minutes=i+1)).isoformat() if i < 2 else None,
                 "player2": (datetime.now() - timedelta(minutes=i+2)).isoformat() if i < 3 else None
             }
-        } for i in range(7)
+        } for i in range(8)
     ],
     "score": {
         "player1": 200,
